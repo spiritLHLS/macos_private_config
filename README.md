@@ -1,0 +1,2 @@
+# macos_private_config
+Windows迁移到Macos的清单
