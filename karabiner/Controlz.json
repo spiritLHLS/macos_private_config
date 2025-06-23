@@ -1,0 +1,26 @@
+{
+  "title": "Control-Z to Command-Z",
+  "rules": [
+    {
+      "description": "将 Ctrl+Z 映射为撤销（Command+Z）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

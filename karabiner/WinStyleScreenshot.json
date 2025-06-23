@@ -1,0 +1,31 @@
+{
+  "title": "Windows Style Screenshot",
+  "rules": [
+    {
+      "description": "Ctrl+Shift+S 模拟 Win+Shift+S（macOS 区域截图）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

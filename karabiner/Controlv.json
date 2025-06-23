@@ -1,0 +1,32 @@
+{
+  "title": "Control-V Plain Paste",
+  "rules": [
+    {
+      "description": "定义Ctrl+V为无格式黏贴",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": [
+                "left_shift",
+                "left_option",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
