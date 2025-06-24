@@ -2,7 +2,7 @@
   "title": "Control-C Plain Copy",
   "rules": [
     {
-      "description": "定义Ctrl+C为无格式复制",Add commentMore actions
+      "description": "定义Ctrl+C为无格式复制",
       "manipulators": [
         {
           "type": "basic",
