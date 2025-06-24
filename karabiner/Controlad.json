@@ -1,0 +1,31 @@
+{
+  "title": "Control-A-D Action",
+  "rules": [
+    {
+      "description": "定义 Ctrl+A+D 为一个操作",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "a"
+              },
+              {
+                "key_code": "d"
+              }
+            ],
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
