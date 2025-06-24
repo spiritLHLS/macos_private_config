@@ -1,0 +1,29 @@
+{
+  "title": "Control-F as Command-F",
+  "rules": [
+    {
+      "description": "将Ctrl+F映射为Command+F",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
