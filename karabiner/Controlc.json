@@ -1,27 +1,21 @@
 {
-  "title": "Control-C Plain Copy",
+  "title": "Control-C to Command-C",
   "rules": [
     {
-      "description": "定义Ctrl+C为无格式复制",
+      "description": "将 Ctrl+C 映射为 Command+C",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "key_code": "c",
             "modifiers": {
-              "mandatory": [
-                "left_control"
-              ]
+              "mandatory": ["control"]
             }
           },
           "to": [
             {
               "key_code": "c",
-              "modifiers": [
-                "left_shift",
-                "left_option",
-                "left_command"
-              ]
+              "modifiers": ["command"]
             }
           ]
         }
